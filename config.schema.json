@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "PicoPIR",
   "pluginType": "platform",
   "singular": true,
   "schema": {
