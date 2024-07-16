@@ -5,11 +5,27 @@
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "ipAddressHb": {
+        "title": "IP Address of Homebridge server",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "format": "ipv4"
+      },
+      "nameMs": {
+        "title": "Name of the motion sensor",
+        "type": "string",
+        "required": true
+      },
+      "ipAddressMs": {
+        "title": "IP Address of motion sensor",
+        "type": "string",
+        "required": true,
+        "format": "ipv4"
+      },
+      "port": {
+        "title": "Port",
+        "type": "integer",
+        "required": true
       }
     }
   }
